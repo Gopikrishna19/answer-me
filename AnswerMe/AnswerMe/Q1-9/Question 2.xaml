@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="Question_2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:my="clr-namespace:AnswerMe" Height="600" Width="600">
+    <Grid>
+        <my:QuestionNumber HorizontalAlignment="Left" Margin="12,12,0,0" x:Name="QuestionNumber1" VerticalAlignment="Top" Height="200" Width="200" QuestionNumber="2" />
+        <my:OptionsRight Content=".K.O" Height="180" HorizontalAlignment="Left" Margin="300,382,0,0" x:Name="OptionsRight1" VerticalAlignment="Top" Width="402" />
+        <my:OptionsRight Content="I don't understand" Height="23" HorizontalAlignment="Left" Margin="300,488,0,0" x:Name="OptionsRight2" VerticalAlignment="Top" Width="75" FontSize="24"/>
+        <my:OptionsLeft Content="Stupidity" Height="23" HorizontalAlignment="Left" Margin="-8,382,0,0" x:Name="OptionsLeft1" VerticalAlignment="Top" Width="75" />
+        <my:OptionsLeft Content="Go to HELL" Height="23" HorizontalAlignment="Left" Margin="-8,488,0,0" x:Name="OptionsLeft2" VerticalAlignment="Top" Width="75" />
+        <my:QuestionBox HorizontalAlignment="Left" Margin="99,12,0,0" x:Name="QuestionBox1" VerticalAlignment="Top" Height="364" Width="489" QuestionContent="sdrawkcab noitseuq siht rewsna" />
+    </Grid>
+</UserControl>

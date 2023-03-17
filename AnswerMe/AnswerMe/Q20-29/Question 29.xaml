@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="Question_29"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:my="clr-namespace:AnswerMe" Height="600" Width="600">
+    <Grid>
+        <my:QuestionNumber HorizontalAlignment="Left" Margin="12,12,0,0" x:Name="QuestionNumber1" VerticalAlignment="Top" Height="200" Width="200" QuestionNumber="29" />
+        <my:OptionsRight Content="OK" Height="180" HorizontalAlignment="Left" Margin="300,382,0,0" x:Name="OptionsRight1" VerticalAlignment="Top" Width="402" />
+        <my:OptionsRight Content="I don't get it" Height="23" HorizontalAlignment="Left" Margin="300,488,0,0" x:Name="OptionsRight2" VerticalAlignment="Top" Width="75" />
+        <my:OptionsLeft Content="Cancel" Height="23" HorizontalAlignment="Left" Margin="-8,382,0,0" x:Name="OptionsLeft1" VerticalAlignment="Top" Width="75" />
+        <my:OptionsLeft Content="Fine" Height="23" HorizontalAlignment="Left" Margin="-8,488,0,0" x:Name="OptionsLeft2" VerticalAlignment="Top" Width="75" />
+        <my:QuestionBox HorizontalAlignment="Left" Margin="128,12,0,0" x:Name="QuestionBox1" VerticalAlignment="Top" Height="322" Width="460" QuestionContent="Anwer This Question Upside Down" RenderTransformOrigin="0.5,0.5" >
+        	<my:QuestionBox.RenderTransform>
+        		<TransformGroup>
+        			<ScaleTransform/>
+        			<SkewTransform/>
+        			<RotateTransform Angle="180"/>
+        			<TranslateTransform/>
+        		</TransformGroup>
+        	</my:QuestionBox.RenderTransform>
+        </my:QuestionBox>
+    </Grid>
+</UserControl>

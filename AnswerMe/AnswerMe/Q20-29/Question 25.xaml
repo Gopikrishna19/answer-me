@@ -1,0 +1,50 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:my="clr-namespace:AnswerMe" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="Question_25"
+             Height="600" Width="600">
+	<UserControl.Resources>
+		<ControlTemplate x:Key="MyCusBtn" TargetType="{x:Type Button}">
+			<Grid>
+				<Ellipse Fill="#FF0DC421" Margin="8" Stroke="Black" StrokeThickness="5"/>
+			</Grid>
+		</ControlTemplate>
+	</UserControl.Resources>
+    <Grid>
+        <!-- Need to design
+        Don't click on green
+        -->
+    	<Path x:Name="pathCons" Data="M146,-22 L133.5,78.5 103.5,102.5 77.5,118.5 55.5,124.5 -43.5,137.5 -39.5,614.5 625.5,614.5 621.5,-28.5 z" Fill="#FF60E969" Margin="-43.5,-28.5,-26.5,-15.5" Stretch="Fill" Stroke="Black"/>
+    	<Path Data="M169,281 C169,281 114.5,261.5 110.5,317.5 106.5,373.5 118.5,377.50057 135.5,379.50059 152.5,381.50061 200.5,380.50059 216.5,347.50028 232.5,314.49997 210.5,306.49998 210.5,306.49998 L279.50018,253.49932 357.50027,302.49993 C357.50027,302.49993 346.50026,340.50041 369.50029,347.50049 392.50031,354.50058 400.50031,392.50106 436.50035,368.50076 472.50038,344.50046 495.5004,318.50013 491.50039,300.4999 487.50039,282.49968 460.50066,227.49899 442.50062,241.49916 424.50059,255.49934 403.50055,266.49986 388.50052,265.49985 373.50049,264.49985 328.50041,229.49953 328.50041,229.49953 L284.50033,201.49927 245.50025,227.49951 z" Margin="109.727,201.5,107.05,218.881" Stretch="Fill" Stroke="Black" StrokeThickness="0" x:Name="MainPath"/>
+    	<Button HorizontalAlignment="Left" Height="44" Margin="139,0,0,237" VerticalAlignment="Bottom" Width="44" Template="{DynamicResource MyCusBtn}" Name="Button1" />
+    	<TextBlock Height="77.952" TextWrapping="Wrap" Text="Click Here For next Question" Foreground="#FF306A20" FontFamily="/AnswerMe;component/Fonts/#Yoshi's Story game text BRK" FontSize="32" x:Name="pathHint" VerticalAlignment="Bottom" Margin="128,0,172,117.048"/>
+    	<Grid Height="83.452" x:Name="pathArrow" VerticalAlignment="Bottom" Margin="0,0,142,143.548" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="65.65">
+    		<Grid.RenderTransform>
+    			<TransformGroup>
+    				<ScaleTransform ScaleX="-1"/>
+    				<SkewTransform/>
+    				<RotateTransform/>
+    				<TranslateTransform/>
+    			</TransformGroup>
+    		</Grid.RenderTransform><Path Data="M196.06299,557.48031 C196.06299,557.48031 163.67322,556.9806 144.77558,535.72076 125.87794,514.46092 122.33404,505.01325 122.33404,505.01325 L106.97915,481.39144 98.711678,506.19398" Margin="0,2.362,0,0" Stretch="Fill" Stroke="Black" StrokeThickness="5"/><Path Data="M132.28346,483.07087 L108.16188,479.02742" Fill="#FF0DC421" HorizontalAlignment="Left" Height="9.043" Margin="3.448,0,0,0" Stretch="Fill" Stroke="Black" StrokeThickness="5" VerticalAlignment="Top" Width="29.122" RenderTransformOrigin="0.5,0.5" d:LayoutOverrides="HorizontalAlignment">
+	<Path.RenderTransform>
+		<TransformGroup>
+			<ScaleTransform/>
+			<SkewTransform/>
+			<RotateTransform Angle="16.21"/>
+			<TranslateTransform/>
+		</TransformGroup>
+	</Path.RenderTransform>
+</Path></Grid>
+    	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Width="407.328" FontFamily="/AnswerMe;component/Fonts/#Yoshi's Story game text BRK" FontSize="64" RenderTransformOrigin="0.5,0.5" Foreground="#FF306A20" x:Name="pathMsg" Margin="164,9,0,294.805"><TextBlock.RenderTransform>
+    			<TransformGroup>
+    				<ScaleTransform/>
+    				<SkewTransform/>
+    				<RotateTransform Angle="0.27"/>
+    				<TranslateTransform/>
+    			</TransformGroup>
+    		</TextBlock.RenderTransform><Run Text="Don't Touch the Green !!!"/></TextBlock>
+    	<Button HorizontalAlignment="Right" Margin="0,291,146,265" Width="44" Template="{DynamicResource MyCusBtn}" Name="Button2" />
+    	<my:QuestionNumber QuestionNumber="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8,8,0,0" />
+    </Grid>
+</UserControl>

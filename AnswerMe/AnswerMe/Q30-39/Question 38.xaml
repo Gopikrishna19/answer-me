@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="Question_38"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:my="clr-namespace:AnswerMe" Height="600" Width="600">
+    <Grid>
+        <my:QuestionNumber HorizontalAlignment="Left" Margin="12,12,0,0" x:Name="QuestionNumber1" VerticalAlignment="Top" Height="200" Width="200" QuestionNumber="38" />
+        <my:OptionsRight Content="NO" Height="180" HorizontalAlignment="Left" Margin="300,382,0,0" x:Name="OptionsRight1" VerticalAlignment="Top" Width="402" />
+        <my:OptionsLeft Content="YES" Height="23" HorizontalAlignment="Left" Margin="-8,382,0,0" x:Name="OptionsLeft1" VerticalAlignment="Top" Width="75" />
+        <my:QuestionBox HorizontalAlignment="Left" Margin="128,15,0,0" x:Name="QuestionBox1" VerticalAlignment="Top" Height="364" Width="460" QuestionContent="Did you like this quiz?" />
+    </Grid>
+</UserControl>

@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="Question_37"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:my="clr-namespace:AnswerMe" Height="600" Width="600">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Margin="12,171,0,233" Width="200">
+        	<Grid.Background>
+        		<ImageBrush ImageSource="/AnswerMe;component/Images/q37.jpg"/>
+        	</Grid.Background>
+        </Grid>
+        <my:QuestionNumber HorizontalAlignment="Left" Margin="12,12,0,0" x:Name="QuestionNumber1" VerticalAlignment="Top" Height="200" Width="200" QuestionNumber="37" />
+        <my:OptionsRight Content="Space" Height="180" HorizontalAlignment="Left" Margin="300,382,0,0" x:Name="OptionsRight1" VerticalAlignment="Top" Width="402" />
+        <my:OptionsRight Content="Around Orion's Waist" Height="23" HorizontalAlignment="Left" Margin="300,488,0,0" x:Name="OptionsRight2" VerticalAlignment="Top" Width="75" FontSize="20"/>
+        <my:OptionsLeft Content="Belt" Height="23" HorizontalAlignment="Left" Margin="-8,382,0,0" x:Name="OptionsLeft1" VerticalAlignment="Top" Width="75" />
+        <my:OptionsLeft Content="In Constellation Map" Height="23" HorizontalAlignment="Left" Margin="-8,488,0,0" x:Name="OptionsLeft2" VerticalAlignment="Top" Width="75" FontSize=" 20"/>
+        <my:QuestionBox HorizontalAlignment="Left" Margin="69,45,0,0" x:Name="QuestionBox1" VerticalAlignment="Top" Height="331" Width="589" QuestionContent="Where is the Orion's belt ? (Not Counted)" Foreground="#FF995555" />
+    </Grid>
+</UserControl>

@@ -1,0 +1,24 @@
+﻿<Button x:Class="OptionsRight"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Template="{DynamicResource MyOptionButtonRight}" MaxWidth="300" MaxHeight="100" FontFamily="/AnswerMe;component/Fonts/#Mishmash 4x4i BRK" Content="Hello" FontSize="32" MinWidth="300" MinHeight="100">
+	<Button.Resources>
+		<ControlTemplate x:Key="MyOptionButtonRight" TargetType="{x:Type Button}">
+			<Grid>
+				<Path x:Name="path" Data="M377.01985,51.437216 L353.12614,50.937434 C353.12614,50.937434 348.29652,9.028816 318.5981,6.17649 277.63252,2.2420334 123.40875,6.17649 123.40875,6.17649 123.40875,6.17649 96.753848,12.829821 97.358998,41.864355 97.964138,70.898889 97.964118,110.21649 97.964118,110.21649 97.964118,110.21649 96.444893,137.6696 120.38322,140.46027 156.45251,144.66514 322.22883,137.43632 322.22883,137.43632 322.22883,137.43632 335.82037,133.92589 353.73151,98.118762 354.33666,96.90899 377.61571,96.90899&#xd;&#xa;377.61571,96.90899 z" Fill="#FF9DDE5F" Height="Auto" Margin="0,-1.219,-13.363,-0.872" Stretch="Fill" VerticalAlignment="Stretch" StrokeThickness="6" HorizontalAlignment="Right" Stroke="#FF6A0000" Width="315.363" ClipToBounds="True"/>
+				<ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+			</Grid>
+			<ControlTemplate.Triggers>
+				<Trigger Property="IsMouseOver" Value="True">
+					<Setter Property="Fill" TargetName="path" Value="#FFDED35F"/>
+					<Setter Property="Stroke" TargetName="path" Value="#FF006A24"/>
+				</Trigger>
+				<Trigger Property="IsPressed" Value="True">
+					<Setter Property="StrokeThickness" TargetName="path" Value="10"/>
+					<Setter Property="Fill" TargetName="path" Value="#FF5FC4DE"/>
+					<Setter Property="Stroke" TargetName="path" Value="#FF256A00"/>
+				</Trigger>
+			</ControlTemplate.Triggers>
+		</ControlTemplate>
+	</Button.Resources>
+</Button>

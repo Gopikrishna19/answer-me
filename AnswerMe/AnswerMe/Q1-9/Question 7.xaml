@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="Question_7"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:my="clr-namespace:AnswerMe" Height="600" Width="600">
+    <Grid>
+        <my:QuestionNumber HorizontalAlignment="Left" Margin="12,12,0,0" x:Name="QuestionNumber1" VerticalAlignment="Top" Height="200" Width="200" QuestionNumber="7" />
+        <my:OptionsRight Content="this one" Height="180" HorizontalAlignment="Left" Margin="300,382,0,0" x:Name="OptionsRight1" VerticalAlignment="Top" Width="402" />
+        <my:OptionsRight Content="That one" Height="23" HorizontalAlignment="Left" Margin="300,488,0,0" x:Name="OptionsRight2" VerticalAlignment="Top" Width="75" />
+        <my:OptionsLeft Content="That One" Height="23" HorizontalAlignment="Left" Margin="-8,382,0,0" x:Name="OptionsLeft1" VerticalAlignment="Top" Width="75" />
+        <my:OptionsLeft Content="This One" Height="23" HorizontalAlignment="Left" Margin="-8,488,0,0" x:Name="OptionsLeft2" VerticalAlignment="Top" Width="75" />
+        <my:QuestionBox HorizontalAlignment="Left" Margin="64,12,0,0" x:Name="QuestionBox1" VerticalAlignment="Top" Height="364" Width="524" QuestionContent="Got a memory? What was the answer to question 1?" />
+        <Path Data="M334,455 L251.5,527.5 264.5,530.5" Height="76.5" Margin="251.5,0,265,68.5" Stretch="Fill" Stroke="Black" VerticalAlignment="Bottom" StrokeThickness="6"/>
+        <Path Data="M217,511 L221,448 231,454" HorizontalAlignment="Left" Height="69" Margin="214,0,0,86" Stretch="Fill" Stroke="Black" StrokeThickness="6" VerticalAlignment="Bottom" Width="20"/>
+        <Path Data="M256,418 L343,522 347,503" Height="110" Margin="253,0,250,75" Stretch="Fill" Stroke="Black" StrokeThickness="6" VerticalAlignment="Bottom"/>
+        <Path Data="M327,522 L343,526" HorizontalAlignment="Right" Height="10" Margin="0,0,254,71" Stretch="Fill" Stroke="Black" StrokeThickness="6" VerticalAlignment="Bottom" Width="22"/>
+        <Path Data="M218,447 L208,452" HorizontalAlignment="Left" Height="11" Margin="205,0,0,145" Stretch="Fill" Stroke="Black" StrokeThickness="6" VerticalAlignment="Bottom" Width="16"/>
+        <Path Data="M256,524 L252,512" HorizontalAlignment="Left" Height="18" Margin="249,0,0,73" Stretch="Fill" Stroke="Black" StrokeThickness="6" VerticalAlignment="Bottom" Width="10"/>
+        <Grid HorizontalAlignment="Left" Margin="0,169,0,224" Width="142">
+        	<Grid.Background>
+        		<ImageBrush ImageSource="/AnswerMe;component/Images/q07.png" Stretch="Uniform"/>
+        	</Grid.Background>
+        </Grid>
+    </Grid>
+</UserControl>

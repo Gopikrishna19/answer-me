@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="Question_26"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:my="clr-namespace:AnswerMe" Height="600" Width="600">
+    <UserControl.Resources>
+        <ControlTemplate x:Key="myBtn" TargetType="{x:Type Button}">
+            <Grid>
+                <Ellipse x:Name="ellipse" Fill="Black" Margin="8" Stroke="Black"/>
+            </Grid>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Fill" TargetName="ellipse" Value="#FF1616A7"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Fill" TargetName="ellipse" Value="#FF00CE3C"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+    </UserControl.Resources>
+
+    <Grid>
+        <my:QuestionNumber HorizontalAlignment="Left" Margin="12,12,0,0" x:Name="QuestionNumber1" VerticalAlignment="Top" Height="200" Width="200" QuestionNumber="26" />
+        <my:QuestionBox HorizontalAlignment="Left" Margin="104,29,0,0" x:Name="QuestionBox1" VerticalAlignment="Top" Height="72" Width="460" QuestionContent="Click the" />
+        <Button x:Name="btn1" Content="Button" HorizontalAlignment="Left" Margin="71,155,0,252" Width="193" Template="{DynamicResource myBtn}"/>
+        <Button x:Name="btn2" Content="Button" Height="126" Margin="262,0,212,231" VerticalAlignment="Bottom" Template="{DynamicResource myBtn}"/>
+        <Button x:Name="btn3" Content="Button" Height="54" Margin="424,0,125,284" VerticalAlignment="Bottom" Template="{DynamicResource myBtn}"/>
+        <Button x:Name="bnt4" Content="Button" HorizontalAlignment="Right" Height="135" Margin="0,0,41,344" VerticalAlignment="Bottom" Width="135" Template="{DynamicResource myBtn}"/>
+        <Button x:Name="btn5" Content="Button" HorizontalAlignment="Right" Height="82" Margin="0,155,212,0" VerticalAlignment="Top" Width="82" Template="{DynamicResource myBtn}"/>
+        <Button x:Name="btn6" Content="Button" HorizontalAlignment="Left" Height="98" Margin="490,0,0,252" VerticalAlignment="Bottom" Width="98" Template="{DynamicResource myBtn}"/>
+        <Button x:Name="btn7" Content="Button" Height="63" Margin="104,49,433,0" VerticalAlignment="Top" Template="{DynamicResource myBtn}"/>
+        <TextBlock FontFamily="Yoshi's Story game text BRK" FontSize="64" Margin="173,89,165,451" HorizontalAlignment="Center" VerticalAlignment="Center" Name="TextBlock1">Largest</TextBlock>
+    </Grid>
+</UserControl>

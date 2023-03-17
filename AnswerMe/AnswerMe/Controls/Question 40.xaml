@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="Question_40"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:my="clr-namespace:AnswerMe" Height="600" Width="600">
+    <Grid>
+        
+        
+        <my:QuestionBox HorizontalAlignment="Left" Margin="167,474,0,0" x:Name="QuestionBox1" VerticalAlignment="Top" Height="58" Width="326" QuestionContent="BYE !!" />
+        <Grid Margin="132,46,107,163">
+        	<Grid.Background>
+                <ImageBrush ImageSource="/AnswerMe;component/Images/q40.png"/>
+        	</Grid.Background>
+        </Grid>
+    </Grid>
+</UserControl>

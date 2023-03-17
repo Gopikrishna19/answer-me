@@ -1,0 +1,36 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:my="clr-namespace:AnswerMe"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="Question_5"
+             Height="600" Width="600">
+	<UserControl.Resources>
+		<ControlTemplate x:Key="MyCusBtn" TargetType="{x:Type Button}">
+			<Grid>
+				<Ellipse Fill="#FF0DC421" Margin="8" Stroke="Black" StrokeThickness="5"/>
+			</Grid>
+		</ControlTemplate>
+	</UserControl.Resources>
+    <Grid>
+        <my:QuestionNumber Margin="12,12,488,488" QuestionNumber="5" />
+        <Path x:Name="pathCons" Data="M151.1811,-29.527559 L151.1811,77.453197 115.24814,140.05123 62.098611,169.57893 17.217399,180.20857 -38.294755,179.02714 -37.113928,294.77469 86.901729,319.57729 119.97257,373.90742 124.69698,418.78952 102.25605,463.67156 57.374191,476.66387 21.941147,476.66387 -40.657233,469.57764 -44.201028,616.03388 636.11461,627.8453 632.57149,469.5783 571.15411,467.2161 528.63438,456.58619 496.74459,423.51539 484.93355,376.27138 494.38238,343.20057 506.19341,320.75966 545.16983,294.77546&#xd;&#xa;578.24073,286.50775 617.21714,282.96445 620.76045,174.30323 618.39824,42.019999 613.67383,-31.208218" Fill="#FF9999C6" Margin="-44.201,-31.209,-37.114,-28.846" Stretch="Fill" Stroke="Black"/>
+        <!--Need To Design
+        Without Touching "BLUE"
+        -->
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Margin="159.67,123.268,0,180.537" Width="407.328" FontFamily="/AnswerMe;component/Fonts/#Yoshi's Story game text BRK" FontSize="64" RenderTransformOrigin="0.5,0.5" Foreground="#FF3D206A" Name="pathMsg"><TextBlock.RenderTransform>
+        		<TransformGroup>
+        			<ScaleTransform/>
+        			<SkewTransform/>
+        			<RotateTransform Angle="-29.705"/>
+        			<TranslateTransform/>
+        		</TransformGroup>
+        	</TextBlock.RenderTransform><Run Text="Don't"/><LineBreak/><Run Text="    Touch"/><LineBreak/><Run Text="   the Blue !!!"/></TextBlock>
+        <Button Content="Button" HorizontalAlignment="Left" Height="55.512" Margin="28.346,0,0,172.441" VerticalAlignment="Bottom" Width="55.512" Template="{DynamicResource MyCusBtn}" Name="btnAns" />
+        <Button Content="Button" HorizontalAlignment="Right" Height="51.968" Margin="0,0,18.898,193.701" VerticalAlignment="Bottom" Width="51.968" Template="{DynamicResource MyCusBtn}" Name="Button1" />
+        <Grid HorizontalAlignment="Left" Height="83.452" Margin="96.713,0,0,39.52" VerticalAlignment="Bottom" Width="102.35" Name="pathArrow">
+        	<Path Data="M196.06299,557.48031 C196.06299,557.48031 163.67322,556.9806 144.77558,535.72076 125.87794,514.46092 122.33404,505.01325 122.33404,505.01325 L106.97915,481.39144 98.711678,506.19398" Margin="0,2.362,0,0" Stretch="Fill" Stroke="Black" StrokeThickness="5"/>
+        	<Path Data="M132.28346,483.07087 L108.16188,479.02742" Fill="#FF0DC421" HorizontalAlignment="Left" Height="9.043" Margin="9.448,0,0,0" Stretch="Fill" Stroke="Black" StrokeThickness="5" VerticalAlignment="Top" Width="29.122"/>
+        </Grid>
+        <TextBlock Height="77.952" Margin="222.047,0,77.953,20.079" TextWrapping="Wrap" Text="Click Here For next Question" VerticalAlignment="Bottom" Foreground="#FF3D206A" FontFamily="/AnswerMe;component/Fonts/#Yoshi's Story game text BRK" FontSize="32" Name="pathHint" />
+    </Grid>
+</UserControl>

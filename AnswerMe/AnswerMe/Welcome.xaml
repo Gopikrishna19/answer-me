@@ -1,0 +1,13 @@
+﻿<Window x:Class="Welcome"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Welcome" Height="300" Width="300">
+    <Grid>
+        <TextBlock Text="Welcome!" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Mishmash BRK" FontSize="72">
+            <TextBlock.BitmapEffect >
+                <DropShadowBitmapEffect Color="Red" />
+            </TextBlock.BitmapEffect>
+        </TextBlock>
+        <TextBlock Text="Click to start . . ."  FontFamily="Mishmash BRK" Margin="0,0,100,0" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
+    </Grid>
+</Window>

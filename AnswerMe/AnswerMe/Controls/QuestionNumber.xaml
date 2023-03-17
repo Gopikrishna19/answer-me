@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="QuestionNumber"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" MaxWidth="100" MaxHeight="100" MinWidth="100" MinHeight="100">
+    <Grid>
+    	<Ellipse Margin="8,7.622,8,8.378" Stroke="#FF4F5CD0" StrokeThickness="7.5"/>
+    	<TextBlock x:Name="QNumber" HorizontalAlignment="Center" TextWrapping="Wrap" Text="40" VerticalAlignment="Center" TextAlignment="Center" FontFamily="Turok" FontSize="50" Foreground="#FF1FB201"/>
+            
+    </Grid>
+</UserControl>

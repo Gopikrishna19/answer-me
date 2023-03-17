@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="Question_22"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:my="clr-namespace:AnswerMe" Height="600" Width="600">
+    <Grid>
+        <my:QuestionNumber HorizontalAlignment="Left" Margin="12,12,0,0" x:Name="QuestionNumber1" VerticalAlignment="Top" Height="200" Width="200" QuestionNumber="22" />
+        <my:QuestionBox HorizontalAlignment="Left" Margin="128,105,0,0" x:Name="QuestionBox1" VerticalAlignment="Top" Height="86" Width="460" QuestionContent=";) ?" />
+        <Grid Height="100" Width="100" x:Name="opt1" Margin="311,251,189,249" >
+        	<Grid.Background>
+        		<ImageBrush ImageSource="/AnswerMe;component/Images/q223.png" Stretch="Uniform"/>
+        	</Grid.Background>
+        </Grid>
+        <Grid Height="100" Width="100" x:Name="opt2" Margin="205,357,295,143" >
+        	<Grid.Background>
+        		<ImageBrush ImageSource="/AnswerMe;component/Images/q224.png" Stretch="Uniform"/>
+        	</Grid.Background>
+        </Grid>
+        <Grid Height="100" Width="100" x:Name="opt3" Margin="311,357,189,143" >
+        	<Grid.Background>
+        		<ImageBrush ImageSource="/AnswerMe;component/Images/q222.png" Stretch="Uniform"/>
+        	</Grid.Background>
+        </Grid>
+        <Grid Height="100" Width="100" x:Name="opt4" Margin="205,251,295,249" >
+        	<Grid.Background>
+        		<ImageBrush ImageSource="/AnswerMe;component/Images/q221.png" Stretch="Uniform"/>
+        	</Grid.Background>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="Question_17"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:my="clr-namespace:AnswerMe" Height="600" Width="600">
+	<UserControl.Resources>
+		<Storyboard x:Key="OnLoaded1">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="path">
+				<EasingDoubleKeyFrame KeyTime="0:0:4" Value="2.141"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.7" Value="22.474"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.9" Value="-8.867"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="15.996"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6" Value="-7.993"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.7" Value="27.175"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="-4.62"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</UserControl.Resources>
+	<UserControl.Triggers>
+		<EventTrigger RoutedEvent="FrameworkElement.Loaded">
+			<BeginStoryboard Storyboard="{StaticResource OnLoaded1}"/>
+		</EventTrigger>
+	</UserControl.Triggers>
+    <Grid>
+        <my:QuestionNumber HorizontalAlignment="Left" Margin="12,12,0,0" x:Name="QuestionNumber1" VerticalAlignment="Top" Height="200" Width="200" QuestionNumber="17" />
+        <my:OptionsRight Content="Woof" Height="180" HorizontalAlignment="Left" Margin="300,382,0,0" x:Name="OptionsRight1" VerticalAlignment="Top" Width="402" />
+        <my:OptionsRight Content="woof woof woof" Height="23" HorizontalAlignment="Left" Margin="300,488,0,0" x:Name="OptionsRight2" VerticalAlignment="Top" Width="75" FontSize="28"/>
+        <my:OptionsLeft Content="woof woof woof woof" Height="23" HorizontalAlignment="Left" Margin="-8,382,0,0" x:Name="OptionsLeft1" VerticalAlignment="Top" Width="75" FontSize="20"/>
+        <my:OptionsLeft Content="Don't Know dog language" Height="23" HorizontalAlignment="Left" Margin="-8,488,0,0" x:Name="OptionsLeft2" VerticalAlignment="Top" Width="75" FontSize="19" />
+        <Path Data="M174,153 L173.5,201.5 161.5,238.5 174.5,243.5 175.5,226.5 190.5,204.5 197.5,176.5 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="91.5" Margin="161.5,153,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="37"/>
+        <Path x:Name="path" Data="M357,111 L410.5,148.5 425.5,117.5 410.5,115.5 404.5,105.5 392.5,110.5 382.5,105.5 374.5,111.5 z" Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="44" Margin="0,105.5,173.5,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="69.5" RenderTransformOrigin="-0.058,-0.102">
+        	<Path.RenderTransform>
+        		<TransformGroup>
+        			<ScaleTransform/>
+        			<SkewTransform/>
+        			<RotateTransform/>
+        			<TranslateTransform/>
+        		</TransformGroup>
+        	</Path.RenderTransform>
+        </Path>
+        <Path Data="M431,98 L422.5,121.5 409.5,100.5 402.5,118.5 389.5,102.5 389.5,115.5 376.5,104.5 349.5,123.5 342.5,160.5 344.5,248.5 356.5,253.5 338.5,258.5 316.5,162.5 321.5,244.5 331.5,250.5 317.5,254.5 302.5,160.5 226.5,160.5 220.5,212.5 202.5,245.5 204.5,252.5 185.5,253.5 203.5,204.5 172.5,150.5&#xd;&#xa;173.5,118.5 C173.5,118.5 166.5,103.5 148.5,103.5 130.5,103.5 129.5,109.5 118.5,94.5 107.5,79.5 124.5,70.5 129.5,75.5 134.5,80.5 133.4997,85.500251 147.49972,86.500249 161.49973,87.500248 178.49975,72.500269 196.49977,70.500272 214.49978,68.500275 252.49982,85.500253 274.49984,82.500257 296.49987,79.500262 316.49989,68.500176 332.4999,60.500183 348.49992,52.500191 349.49992,49.500193&#xd;&#xa;357.49993,31.50021 365.49993,13.500227 374.49994,39.500202 374.49994,39.500202 374.49994,39.500202 421.49999,62.500386 424.49999,64.500383 427.5,66.500379 431,98 431,98 z" Fill="#FFF4F4F5" Height="234.348" Margin="114.865,25.152,168,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top"/>
+        <Ellipse Fill="Black" HorizontalAlignment="Right" Height="12" Margin="0,59,216,0" Stroke="Black" VerticalAlignment="Top" Width="14"/>
+        <Path Data="M461,219" Fill="White" HorizontalAlignment="Right" Height="1" Margin="0,219,138,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <TextBlock Margin="138,297,52,264" TextWrapping="Wrap" Text="What did the dog say?" FontSize="32" FontFamily="/AnswerMe;component/Fonts/#Yoshi's Story game text BRK"/>
+    </Grid>
+</UserControl>

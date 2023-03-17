@@ -1,0 +1,704 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AnswerMe
+</name>
+</assembly>
+<members>
+<member name="M:AnswerMe.Question_12.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_12">
+	<summary>
+Question_12
+</summary>
+</member><member name="M:AnswerMe.Question_37.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_37">
+	<summary>
+Question_37
+</summary>
+</member><member name="M:AnswerMe.Question_4.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_4">
+	<summary>
+Question_4
+</summary>
+</member><member name="M:AnswerMe.Question_13.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_13">
+	<summary>
+Question_13
+</summary>
+</member><member name="M:AnswerMe.Question_38.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_38">
+	<summary>
+Question_38
+</summary>
+</member><member name="M:AnswerMe.Question_5.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_5">
+	<summary>
+Question_5
+</summary>
+</member><member name="M:AnswerMe.Question_14.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_14">
+	<summary>
+Question_14
+</summary>
+</member><member name="M:AnswerMe.Question_39.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_39">
+	<summary>
+Question_39
+</summary>
+</member><member name="M:AnswerMe.Question_6.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_6">
+	<summary>
+Question_6
+</summary>
+</member><member name="M:AnswerMe.Question_15.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_15">
+	<summary>
+Question_15
+</summary>
+</member><member name="M:AnswerMe.Question_7.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_7">
+	<summary>
+Question_7
+</summary>
+</member><member name="M:AnswerMe.Question_16.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_16">
+	<summary>
+Question_16
+</summary>
+</member><member name="M:AnswerMe.Question_20.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_20">
+	<summary>
+Question_20
+</summary>
+</member><member name="M:AnswerMe.GameOverMsg.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.GameOverMsg">
+	<summary>
+GameOverMsg
+</summary>
+</member><member name="M:AnswerMe.Question_8.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_8">
+	<summary>
+Question_8
+</summary>
+</member><member name="M:AnswerMe.Question_17.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_17">
+	<summary>
+Question_17
+</summary>
+</member><member name="M:AnswerMe.Question_21.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_21">
+	<summary>
+Question_21
+</summary>
+</member><member name="M:AnswerMe.Question_40.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_40">
+	<summary>
+Question_40
+</summary>
+</member><member name="M:AnswerMe.Question_9.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_9">
+	<summary>
+Question_9
+</summary>
+</member><member name="M:AnswerMe.Question_18.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_18">
+	<summary>
+Question_18
+</summary>
+</member><member name="M:AnswerMe.Question_22.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_22">
+	<summary>
+Question_22
+</summary>
+</member><member name="M:AnswerMe.MainWindow.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.MainWindow">
+	<summary>
+MainWindow
+</summary>
+</member><member name="M:AnswerMe.Question_19.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_19">
+	<summary>
+Question_19
+</summary>
+</member><member name="M:AnswerMe.Question_23.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_23">
+	<summary>
+Question_23
+</summary>
+</member><member name="M:AnswerMe.Welcome.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Welcome">
+	<summary>
+Welcome
+</summary>
+</member><member name="M:AnswerMe.Question_24.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_24">
+	<summary>
+Question_24
+</summary>
+</member><member name="M:AnswerMe.OptionsRight.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.OptionsRight">
+	<summary>
+OptionsRight
+</summary>
+</member><member name="M:AnswerMe.Question_25.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_25">
+	<summary>
+Question_25
+</summary>
+</member><member name="M:AnswerMe.QuestionBox.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.QuestionBox">
+	<summary>
+QuestionBox
+</summary>
+</member><member name="M:AnswerMe.Application.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:AnswerMe.Application.Main">
+	<summary>
+Application Entry Point.
+</summary>
+</member><member name="T:AnswerMe.Application">
+	<summary>
+Application
+</summary>
+</member><member name="M:AnswerMe.Question_26.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_26">
+	<summary>
+Question_26
+</summary>
+</member><member name="M:AnswerMe.Question_30.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_30">
+	<summary>
+Question_30
+</summary>
+</member><member name="M:AnswerMe.XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+	<summary>
+CreateInstance
+</summary>
+</member><member name="M:AnswerMe.XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+	<summary>
+GetPropertyValue
+</summary>
+</member><member name="M:AnswerMe.XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+	<summary>
+SetPropertyValue
+</summary>
+</member><member name="M:AnswerMe.XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+	<summary>
+CreateDelegate
+</summary>
+</member><member name="M:AnswerMe.XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+	<summary>
+AddEventHandler
+</summary>
+</member><member name="T:AnswerMe.XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+	<summary>
+GeneratedInternalTypeHelper
+</summary>
+</member><member name="M:AnswerMe.Question_27.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_27">
+	<summary>
+Question_27
+</summary>
+</member><member name="M:AnswerMe.Question_31.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_31">
+	<summary>
+Question_31
+</summary>
+</member><member name="M:AnswerMe.OptionsLeft.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.OptionsLeft">
+	<summary>
+OptionsLeft
+</summary>
+</member><member name="M:AnswerMe.Question_28.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_28">
+	<summary>
+Question_28
+</summary>
+</member><member name="M:AnswerMe.Question_32.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_32">
+	<summary>
+Question_32
+</summary>
+</member><member name="M:AnswerMe.WrongAnswer.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.WrongAnswer">
+	<summary>
+WrongAnswer
+</summary>
+</member><member name="M:AnswerMe.Question_29.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_29">
+	<summary>
+Question_29
+</summary>
+</member><member name="M:AnswerMe.Question_33.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_33">
+	<summary>
+Question_33
+</summary>
+</member><member name="M:AnswerMe.Question_10.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_10">
+	<summary>
+Question_10
+</summary>
+</member><member name="M:AnswerMe.Question_34.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_34">
+	<summary>
+Question_34
+</summary>
+</member><member name="M:AnswerMe.Question_1.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_1">
+	<summary>
+Question_1
+</summary>
+</member><member name="M:AnswerMe.Question_2.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_2">
+	<summary>
+Question_2
+</summary>
+</member><member name="M:AnswerMe.Question_11.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_11">
+	<summary>
+Question_11
+</summary>
+</member><member name="M:AnswerMe.Question_35.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_35">
+	<summary>
+Question_35
+</summary>
+</member><member name="M:AnswerMe.Question_3.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_3">
+	<summary>
+Question_3
+</summary>
+</member><member name="M:AnswerMe.Question_36.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.Question_36">
+	<summary>
+Question_36
+</summary>
+</member><member name="M:AnswerMe.QuestionNumber.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:AnswerMe.QuestionNumber">
+	<summary>
+QuestionNumber
+</summary>
+</member><member name="E:AnswerMe.Question_2.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_7.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_13.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_18.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_20.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_25.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_32.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_3.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_8.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_37.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="P:AnswerMe.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:AnswerMe.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:AnswerMe.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="E:AnswerMe.Question_14.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_19.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_26.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_21.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_4.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_38.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_33.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_9.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_10.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_15.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_22.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_27.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_34.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_5.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_39.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_11.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_16.AnswerPressedNum">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerNumber">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_23.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_28.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_6.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_35.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_30.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_1.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_12.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="P:AnswerMe.My.MyWpfExtension.Application">
+	<summary>
+ Returns the application object for the running application
+ </summary>
+</member><member name="P:AnswerMe.My.MyWpfExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:AnswerMe.My.MyWpfExtension.User">
+	<summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member><member name="P:AnswerMe.My.MyWpfExtension.Log">
+	<summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member><member name="P:AnswerMe.My.MyWpfExtension.Windows">
+	<summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member><member name="T:AnswerMe.My.MyWpfExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+	<remarks></remarks>
+</member><member name="E:AnswerMe.Question_17.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_24.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_29.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_36.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member><member name="E:AnswerMe.Question_31.AnswerPressed">
+	<summary>
+ Raises the event when the answer button is clicked
+ </summary>
+	<param name="AnswerIsCorrect">Is the answer pressed is correct?</param>
+	<remarks>True : Correct answer ; False : Wrong Answer</remarks>
+</member>
+</members>
+</doc>

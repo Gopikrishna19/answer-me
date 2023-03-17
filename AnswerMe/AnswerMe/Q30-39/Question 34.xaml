@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="Question_34"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:my="clr-namespace:AnswerMe" Height="600" Width="600">
+    <Grid>
+        <my:QuestionNumber HorizontalAlignment="Left" Margin="12,12,0,0" x:Name="QuestionNumber1" VerticalAlignment="Top" Height="200" Width="200" QuestionNumber="34" />
+        <my:OptionsRight Content="Flying bus" Height="180" HorizontalAlignment="Left" Margin="300,382,0,0" x:Name="OptionsRight1" VerticalAlignment="Top" Width="402" />
+        <my:OptionsRight Content="Space bus" Height="23" HorizontalAlignment="Left" Margin="300,488,0,0" x:Name="OptionsRight2" VerticalAlignment="Top" Width="75" />
+        <my:OptionsLeft Content="Magic school bus" Height="23" HorizontalAlignment="Left" Margin="-8,382,0,0" x:Name="OptionsLeft1" VerticalAlignment="Top" Width="75" FontSize="24"/>
+        <my:OptionsLeft Content="Universal Serial Bus" Height="23" HorizontalAlignment="Left" Margin="-8,488,0,0" x:Name="OptionsLeft2" VerticalAlignment="Top" Width="75" FontSize="20"/>
+        <my:QuestionBox HorizontalAlignment="Left" Margin="128,12,0,0" x:Name="QuestionBox1" VerticalAlignment="Top" Height="113" Width="460" QuestionContent="What is this?" />
+        <Grid Margin="166,154,149,239">
+        	<Grid.Background>
+        		<ImageBrush ImageSource="/AnswerMe;component/Images/q34.jpg" Stretch="Uniform"/>
+        	</Grid.Background>
+        </Grid>
+    </Grid>
+</UserControl>
